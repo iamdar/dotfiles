@@ -17,7 +17,9 @@
 !*.md
 
 # ssh files
-!.ssh/config    # then whitelist the file
+!.ssh/config    
+!.ssh/config.d/
+!.ssh/config.d/*
 
 # Inside .config, you can selectively include subfolders/files
 !.config/nvim/
