@@ -15,6 +15,9 @@
 # md files
 !*.md
 
+# ssh files
+!.ssh/config    # then whitelist the file
+
 # Inside .config, you can selectively include subfolders/files
 !.config/nvim/
 !.config/starship.toml
