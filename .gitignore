@@ -1,0 +1,21 @@
+# Ignore everything by default
+*
+
+# But do not ignore these files / directories (example)
+!.gitignore
+!.bashrc
+!.bash_profile
+!.gitconfig
+!.vimrc
+!.tmux.conf
+!.aliases
+!.functions
+!.config/  # If you want to include entire config folder
+
+# md files
+!*.md
+
+# Inside .config, you can selectively include subfolders/files
+!.config/nvim/
+!.config/starship.toml
+!.config/alacritty/
